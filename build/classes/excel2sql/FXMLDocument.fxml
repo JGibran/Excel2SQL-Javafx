@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="AnchorPane" prefHeight="461.0" prefWidth="366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="excel2sql.FXMLDocumentController">
+    <children>
+      <Label layoutX="113.0" layoutY="76.0" text="Excel2sql">
+         <font>
+            <Font size="35.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.42857142857142855" endY="0.780952380952381" startX="0.6952380952380952" startY="0.27619047619047626">
+               <stops>
+                  <Stop color="#cd1b1b" />
+                  <Stop color="#941515" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ImageView fitHeight="82.0" fitWidth="70.0" layoutX="148.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="/resource/database-logo.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="143.0" layoutY="147.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Choose File" />
+      <ScrollPane layoutX="22.0" layoutY="180.0" prefHeight="262.0" prefWidth="318.0" AnchorPane.topAnchor="180.0">
+         <content>
+            <TextArea fx:id="textResult" prefHeight="259.0" prefWidth="315.0" />
+         </content>
+      </ScrollPane>
+    </children>
+</AnchorPane>

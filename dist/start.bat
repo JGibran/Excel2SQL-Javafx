@@ -1,0 +1,1 @@
+java -Xmx1024M -jar Excel2SQL.jar
