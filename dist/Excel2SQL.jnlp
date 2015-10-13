@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" java-vm-args="-Xmx1024M "  href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Excel2SQL.jar" size="16993" download="eager" />
+    <jar href="Excel2SQL.jar" size="19414" download="eager" />
     <jar href="lib\commons-codec-1.9.jar" size="263965" download="eager" />
     <jar href="lib\commons-logging-1.1.3.jar" size="62050" download="eager" />
     <jar href="lib\junit-4.12.jar" size="314932" download="eager" />

@@ -11,7 +11,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" fx:id="AnchorPane" prefHeight="461.0" prefWidth="366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="excel2sql.FXMLDocumentController">
+<AnchorPane id="AnchorPane" fx:id="ap" prefHeight="461.0" prefWidth="366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="excel2sql.FXMLDocumentController">
     <children>
       <Label layoutX="113.0" layoutY="76.0" text="Excel2sql">
          <font>
